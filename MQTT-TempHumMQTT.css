@@ -9,3 +9,9 @@
 td {
     padding-right: 5px;
 }
+
+table#small {
+	width: 20%;
+	font-size: small;
+
+}

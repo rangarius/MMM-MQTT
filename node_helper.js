@@ -85,6 +85,7 @@ module.exports = NodeHelper.create({
         });
 
         server.client.on('message', function (topic, payload) {
+            //console.log(payload);
             self.sendSocketNotification('MQTT_PAYLOAD', {
                 serverKey: server.serverKey,
                 topic: topic,

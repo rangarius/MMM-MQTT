@@ -1,11 +1,11 @@
 {
-  "name": "MMM-MQTT",
+  "name": "MMM-TempHumMQTT",
   "version": "0.0.1",
-  "description": "Show payload from subscribed MQTT message",
-  "author": "Otto Paulsen",
+  "description": "Show payload from subscribed DHT 11 Sensors MQTT message",
+  "author": "Otto Paulsen, stuffdev.de",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ottopaulsen/MMM-MQTT.git"
+    "url": "git://github.com/rangarius/MMM-MQTT.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -13,6 +13,8 @@
     "jsonpointer": "^4.0.1",
     "mocha": "^6.2.1",
     "mqtt": "^2.18.0",
-    "mqtt-packet": "^6.2.1"
+    "mqtt-packet": "^6.2.1",
+    "echarts": "latest",
+    "moment": "latest"
   }
 }
